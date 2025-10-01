@@ -2,7 +2,7 @@
 
 This repository contains the Jupyter Notebook used in the study:
 
-> **Moemen Hussein, Arnab Barua, Patricia Diaz-Moreno, Haralampos Hatzikirou** *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization* (2025)
+> **Moemen Hussein, Arnab Barua, Patricia Diaz-Moreno, and Haralampos Hatzikirou** *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization* (2025)
 
 The work integrates experimental insights with mathematical modeling to uncover how ecological thresholds, stochastic effects, and cross-species interactions govern the persistence of *Porphyromonas gingivalis* — a keystone pathogen in periodontal disease.
 
