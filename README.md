@@ -37,3 +37,29 @@ This project was developed with **Python 3.10** and relies on standard scientifi
 
 ```bash
 pip install numpy scipy matplotlib jupyter
+
+## 📊 Key Results
+
+- **Critical density thresholds:** Quantified for *P. gingivalis* using cubic Allee-effect models.  
+- **Facilitation effects:** *V. parvula* metabolites significantly reduce the colonization threshold, shifting microbial dynamics.  
+- **Noise-induced survival:** Stochastic fluctuations allow populations below deterministic thresholds to persist.  
+- **Ecological phase transitions:** Game-theoretic models identify conditions separating eubiotic, dysbiotic, coexistence, and bistable regimes.
+
+---
+
+## 📘 Citation
+
+If you use this code or analysis, please cite:
+
+> Hussein, M., Barua, A., Diaz-Moreno, P., & Hatzikirou, H. (2025). *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization*. [npj system biology and applications], [Volume(Issue)], [Pages]. DOI: []
+
+Permanent link to this notebook: [GitHub permalink here]
+
+---
+
+## 📬 Contact
+
+For questions or collaborations:
+
+- **Corresponding author:** [haralampos.hatzikirou@ku.ac.ae](mailto:haralampos.hatzikirou@ku.ac.ae)  
+
