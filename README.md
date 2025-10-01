@@ -51,7 +51,8 @@ pip install numpy scipy matplotlib jupyter
 
 If you use this code or analysis, please cite:
 
-> Hussein, M., Barua, A., Diaz-Moreno, P., & Hatzikirou, H. (2025). *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization*. [npj system biology and applications]. DOI:
+> Hussein, M., Barua, A., Diaz-Moreno, P., & Hatzikirou, H. (2025). *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization*. [npj Systems Biology and Applications
+]. DOI:
 
 Permanent link to this notebook: https://github.com/Moemenhussein11/P.gingivalis-Colonization
 
