@@ -37,7 +37,7 @@ This project was developed with **Python 3.10** and relies on standard scientifi
 
 ```bash
 pip install numpy scipy matplotlib jupyter
-
+```
 ## 📊 Key Results
 
 - **Critical density thresholds:** Quantified for *P. gingivalis* using cubic Allee-effect models.  
