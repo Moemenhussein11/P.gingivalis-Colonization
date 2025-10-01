@@ -1,5 +1,3 @@
-# Understanding-the-Microecological-Factors-That-Control-the-Porphyromonas-Gingivalis-Colonization
-
 # Understanding the Microecological Factors That Control *Porphyromonas gingivalis* Colonization
 
 This repository contains the Jupyter Notebook used in the study:
