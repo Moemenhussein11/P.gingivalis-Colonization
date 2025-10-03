@@ -1,8 +1,8 @@
-# Understanding the Microecological Factors That Control *Porphyromonas gingivalis* Colonization
+# Modelling the microecological factors That Control the replication of oral pathogen *Porphyromonas gingivalis*
 
 This repository contains the Jupyter Notebook used in the study:
 
-> **Moemen Hussein, Arnab Barua, Patricia Diaz, and Haralampos Hatzikirou** *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization* (2025)
+> **Moemen Hussein, Arnab Barua, Patricia Diaz, and Haralampos Hatzikirou** *Modelling the microecological factors That Control the replication of oral pathogen Porphyromonas gingivalis*(2025)
 
 The work integrates experimental insights with mathematical modeling to uncover how ecological thresholds, stochastic effects, and cross-species interactions govern the persistence of *Porphyromonas gingivalis* — a keystone pathogen in periodontal disease.
 
@@ -51,7 +51,7 @@ pip install numpy scipy matplotlib jupyter
 
 If you use this code or analysis, please cite:
 
-> Hussein, M., Barua, A., Diaz, P., & Hatzikirou, H. (2025). *Understanding the Microecological Factors That Control the Porphyromonas gingivalis Colonization*. [npj Systems Biology and Applications
+> Hussein, M., Barua, A., Diaz, P., & Hatzikirou, H. (2025). *Modelling the microecological factors That Control the replication of oral pathogen Porphyromonas gingivalis*. [npj Systems Biology and Applications
 ]. DOI:
 
 Permanent link to this notebook: https://github.com/Moemenhussein11/P.gingivalis-Colonization
