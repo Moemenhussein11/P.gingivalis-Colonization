@@ -2,7 +2,7 @@
 
 This repository contains the Jupyter Notebook used in the study:
 
-> **Moemen Hussein, Arnab Barua, Patricia Diaz, and Haralampos Hatzikirou** *Modelling the microecological factors That Control the replication of oral pathogen Porphyromonas gingivalis*(2025)
+> **Moemen Hussein, Arnab Barua, Patricia Diaz, and Haralampos Hatzikirou** *Modelling the microecological factors That Control the replication of oral pathogen Porphyromonas gingivalis* (2025)
 
 The work integrates experimental insights with mathematical modeling to uncover how ecological thresholds, stochastic effects, and cross-species interactions govern the persistence of *Porphyromonas gingivalis* — a keystone pathogen in periodontal disease.
 
