@@ -1,49 +1,56 @@
-# Modelling the microecological factors that control the replication of oral pathogen *Porphyromonas gingivalis*
+# Ecological and stochastic determinants of the growth and persistence of the oral pathogen *Porphyromonas gingivalis*
 
-This repository contains the Jupyter Notebook used in the study:
+This repository contains the Jupyter Notebook(s) used in the study:
 
-> **Moemen Hussein, Arnab Barua, Patricia Diaz, and Haralampos Hatzikirou** *Modelling the microecological factors that control the replication of oral pathogen Porphyromonas gingivalis* (2025)
+> **Moemen Hussein†, Arnab Barua†, Mohammad Qasaimeh, Matthew Smardz, Patricia I. Diaz, and Haralampos Hatzikirou***
+> *Ecological and stochastic determinants of the growth and persistence of the oral pathogen* **Porphyromonas gingivalis** (2025) 
+> †These authors contributed equally.
+> *Corresponding author:* [haralampos.hatzikirou@ku.ac.ae](mailto:haralampos.hatzikirou@ku.ac.ae)
 
-The work integrates experimental insights with mathematical modeling to uncover how ecological thresholds, stochastic effects, and cross-species interactions govern the persistence of *Porphyromonas gingivalis* — a keystone pathogen in periodontal disease.
+The work integrates quantitative growth experiments with deterministic and stochastic mathematical modeling to explain how Allee-type density dependence, facilitation by *Veillonella parvula*, and microenvironmental noise jointly enable under-threshold survival and, ultimately, dysbiotic configurations of the oral microbiome. 
 
 ---
 
 ## 📑 Overview
 
-Periodontitis is a biofilm-driven chronic inflammatory disease associated with systemic conditions such as cardiovascular disease and neurodegeneration. A central event is the shift from a balanced, health-associated oral microbiome (eubiosis) to a pathogen-enriched, pro-inflammatory state (dysbiosis).
+Periodontitis arises from a shift from a health-associated, commensal-dominated biofilm to a pathogen-enriched, inflammatory state. A key paradox is that *P. gingivalis* shows a clear Allee effect, it should go extinct below a quorum, yet it is repeatedly detected at low abundance in vivo. Our analysis shows that this paradox is resolved once we incorporate (i) Vp-mediated lowering of the Allee threshold and (ii) stochastic fluctuations that enable barrier crossing. 
 
-This repository hosts code exploring the ecological and mathematical principles underlying this transition, focusing on:
+This repository hosts code that reproduces the main modeling components in the manuscript:
 
-- **Allee-effect dynamics:** Demonstrating a critical quorum threshold below which *P. gingivalis* populations collapse.
-- **Cross-species facilitation:** Showing how metabolites from *Veillonella parvula* lower this threshold, enabling subcritical survival.
-- **Stochastic persistence:** Exploring how microenvironmental noise allows populations to overcome deterministic extinction thresholds.
-- **Game-theoretic modeling:** Mapping interaction regimes between *P. gingivalis* and *V. parvula* that drive transitions between eubiosis, coexistence, and dysbiosis.
+* **Deterministic cubic Allee-effect model** fitted to *Pg* growth data to identify the critical density.
+* **Vp-spent-medium / facilitation module** to re-fit the Allee threshold under metabolite supplementation.
+* **Stochastic extension + Fokker–Planck analysis** to quantify noise-induced rescue and the stationary distribution observed in 32-day, subcritical *Pg* cultures.
+* **Two-species, game-theoretic / replicator model** to map *Pg–Vp* interactions to extinction, coexistence, dominance, or bistability, constrained by the co-culture experiments (Day 0 vs Day 9 Vp addition). 
 
 ---
 
 ## 📓 Contents
 
-- `Pg_colonization_model.ipynb` — Core Jupyter Notebook implementing:
-  - Allee-effect population growth models  
-  - Stochastic simulations using the Euler–Maruyama method  
-  - Replicator dynamics and phase diagrams  
-  - Visualizations and parameter fitting
+* `Pg_colonization_model.ipynb` — main notebook implementing the pipeline:
+
+  * Fit of the cubic Allee-effect growth model to single-species *Pg* data
+  * Re-fitting under *V. parvula* spent medium to quantify the shift in the Allee threshold
+  * Stochastic simulations (Euler–Maruyama) reproducing the heterogeneous 32-day outcomes
+  * Fokker–Planck–based stationary distribution to compare with replicate experiments
+  * Replicator-dynamics exploration of the *(β, γ)* plane for *Pg–Vp* interactions 
 
 ---
 
 ## 🛠️ Requirements
 
-This project was developed with **Python 3.10** and relies on standard scientific computing libraries:
+Developed and tested with **Python 3.10**.
 
 ```bash
-pip install numpy scipy matplotlib jupyter
+pip install numpy scipy matplotlib jupyter pandas
 ```
-## 📊 Key Results
+---
 
-- **Critical density thresholds:** Quantified for *P. gingivalis* using cubic Allee-effect models.  
-- **Facilitation effects:** *V. parvula* metabolites significantly reduce the colonization threshold, shifting microbial dynamics.  
-- **Noise-induced survival:** Stochastic fluctuations allow populations below deterministic thresholds to persist.  
-- **Ecological phase transitions:** Game-theoretic models identify conditions separating eubiotic, dysbiotic, coexistence, and bistable regimes.
+## 📊 Key Results Reproduced Here
+
+* **Quantified Allee threshold for *P. gingivalis*** from fitted cubic model, showing negative growth below the quorum.
+* **Facilitation by *V. parvula***: spent/conditioned medium lowers the effective Allee threshold, enabling subcritical inocula to persist.
+* **Noise-enabled persistence:** multiplicative microenvironmental noise shifts the effective saddle node and produces a truncated, power-law-like stationary distribution matching 32-day replicate cultures.
+* **Experiment-constrained phase space:** because Vp saturates to (near) carrying capacity in co-culture, the reachable endpoints during the experimental horizon are effectively “Pg extinction” or “Pg–Vp coexistence,” which pins the relevant region of the *(β, γ)* plane. 
 
 ---
 
@@ -51,10 +58,9 @@ pip install numpy scipy matplotlib jupyter
 
 If you use this code or analysis, please cite:
 
-> Hussein, M., Barua, A., Diaz, P., & Hatzikirou, H. (2025). *Modelling the microecological factors that control the replication of oral pathogen Porphyromonas gingivalis*. [npj Systems Biology and Applications
-]. DOI:
+> Hussein, M., Barua, A., Qasaimeh, M., Smardz, M., Diaz, P. I., & Hatzikirou, H. (2025). *Ecological and stochastic determinants of the growth and persistence of the oral pathogen Porphyromonas gingivalis*. [npj Systems Biology and Applications ]. DOI: 
 
-Permanent link to this notebook: https://github.com/Moemenhussein11/P.gingivalis-Colonization
+
 
 ---
 
@@ -62,5 +68,9 @@ Permanent link to this notebook: https://github.com/Moemenhussein11/P.gingivalis
 
 For questions or collaborations:
 
-- **Corresponding author:** [haralampos.hatzikirou@ku.ac.ae](mailto:haralampos.hatzikirou@ku.ac.ae)  
+* **Corresponding author:** [haralampos.hatzikirou@ku.ac.ae](mailto:haralampos.hatzikirou@ku.ac.ae)
+
+---
+
+Permanent link to this notebook: https://github.com/Moemenhussein11/P.gingivalis-Colonization
 
