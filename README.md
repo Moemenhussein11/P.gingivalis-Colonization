@@ -57,9 +57,7 @@ pip install numpy scipy matplotlib jupyter pandas
 
 If you use this code or analysis, please cite:
 
-> Hussein, M., Barua, A., Qasaimeh, M., Smardz, M., Diaz, P. I., & Hatzikirou, H.
-> *Ecological and stochastic determinants of the growth and persistence of the oral pathogen Porphyromonas gingivalis*.
-> [npj Systems Biology and Applications ]. DOI: 
+> Hussein, M., Barua, A., Qasaimeh, M. et al. Ecological and stochastic determinants of the growth and persistence of the oral pathogen Porphyromonas gingivalis. npj Syst Biol Appl (2026). https://doi.org/10.1038/s41540-026-00662-x
 
 
 
