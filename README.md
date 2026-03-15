@@ -12,13 +12,13 @@ The work integrates quantitative growth experiments with deterministic and stoch
 
 ## 📑 Overview
 
-Periodontitis arises from a shift from a health-associated, commensal-dominated biofilm to a pathogen-enriched, inflammatory state. A key paradox is that *P. gingivalis* shows a clear Allee effect, it should go extinct below a quorum, yet it is repeatedly detected at low abundance in vivo. Our analysis shows that this paradox is resolved once we incorporate (i) Vp-mediated lowering of the Allee threshold and (ii) stochastic fluctuations that enable barrier crossing. 
+Periodontitis arises from a shift from a health-associated, commensal-dominated biofilm to a pathogen-enriched, inflammatory state. A key paradox is that *P. gingivalis* shows a clear Allee effect, it should go extinct below a quorum, yet it is repeatedly detected at low abundance in vivo. Our analysis shows that this paradox is resolved once we incorporate (i) Vp-mediated lowering of the Allee threshold and (ii) stochastic fluctuations that enable under-threshold survival. 
 
 This repository hosts code that reproduces the main modeling components in the manuscript:
 
 * **Deterministic cubic Allee-effect model** fitted to *Pg* growth data to identify the critical density.
 * **Vp-spent-medium / facilitation module** to re-fit the Allee threshold under metabolite supplementation.
-* **Stochastic extension + Fokker–Planck analysis** to quantify noise-induced rescue and the stationary distribution observed in 32-day, subcritical *Pg* cultures.
+* **Stochastic extension + Fokker–Planck analysis** to show noise-induced persistence and the stationary distribution observed in 32-day, subcritical *Pg* cultures.
 * **Two-species, game-theoretic / replicator model** to map *Pg–Vp* interactions to extinction, coexistence, dominance, or bistability, constrained by the co-culture experiments (Day 0 vs Day 9 Vp addition). 
 
 ---
