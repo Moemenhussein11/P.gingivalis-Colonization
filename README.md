@@ -2,9 +2,7 @@
 
 This repository contains the Jupyter Notebook(s) used in the study:
 
-> **Moemen Hussein†, Arnab Barua†, Mohammad Qasaimeh, Matthew Smardz, Patricia I. Diaz, and Haralampos Hatzikirou***
-
-> *Ecological and stochastic determinants of the growth and persistence of the oral pathogen Porphyromonas gingivalis*
+> Hussein, M., Barua, A., Qasaimeh, M. et al. Ecological and stochastic determinants of the growth and persistence of the oral pathogen Porphyromonas gingivalis. npj Syst Biol Appl (2026). https://doi.org/10.1038/s41540-026-00662-x
 
 The work integrates quantitative growth experiments with deterministic and stochastic mathematical modeling to explain how Allee-type density dependence, facilitation by *Veillonella parvula*, and microenvironmental noise jointly enable under-threshold survival and, ultimately, dysbiotic configurations of the oral microbiome. 
 
